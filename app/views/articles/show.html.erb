@@ -2,3 +2,7 @@
 
 <p>Titulo: <%= @article.title %></p>
 <p>Descripción: <%= @article.description %></p>
+
+<p><%= link_to "Editar", edit_article_path(@article) %></p>
+
+<p><%= link_to "Volver al Inicio", articles_path %></p>
